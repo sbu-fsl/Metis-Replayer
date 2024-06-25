@@ -1,6 +1,6 @@
 # JFS Kernel Hang Bug Reproduction
 
-We have prepared scripts to reproduce the non-deterministic Kernel Hang bug in JFS (likely a race).  We have used Linux Kernel v6.6.1 in our experiments.
+We have prepared scripts to reproduce a non-deterministic Kernel Hang bug (likely a race) in the Journaled File System (JFS). We have used Linux Kernel v6.6.1 and v6.9.4 in our experiments, however, we recommend using v6.9.4. A sample dmesg kernel log, captured during this hang bug triggered using our replayer on JFS (mounted on a ramdisk with Linux v6.9.4), is available in this repository as dmesg_jfs_kernel_hang.txt.
 
 * To setup JFS, execute the following command:
 
