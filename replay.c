@@ -34,9 +34,9 @@ int pre = 0;
 int seq = 0;
 unsigned int n_fs = 1;
 char *fsys = "jfs";
-char *fssuffix = "-i1-s0";
+char *fssuffix = "-i0-s0";
 size_t devsize = (size_t)16384;
-char *basepath = "/mnt/test-jfs-i1-s0";
+char *basepath = "/mnt/test-jfs-i0-s0";
 /*
  * Depending upon the type of device that is setup using setup_jfs.sh, we set the device name
  * The device name can be found from the execution output of the setup_jfs.sh script
