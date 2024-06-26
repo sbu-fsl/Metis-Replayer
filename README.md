@@ -9,6 +9,9 @@ We need to install Linux Kernel v6.9.4 before using the replayer. We have provid
 
 This will clone the repo in a folder name Metis-Replayer
 
+* In order to compile the kernel you will need to install some packages, for Debian/Ubuntu Linux (the distro used for our experiments) use the below command for installation:
+> sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
 * Then clone the Kernel source code, extract it and then cd into the folder:
 > wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.4.tar.xz
 
