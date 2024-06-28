@@ -4,6 +4,8 @@ We have prepared scripts to reproduce a non-deterministic Kernel Hang bug (likel
 
 We need to install Linux Kernel v6.9.4 before using the replayer. We have provided a kernel config, .kernel-6.9.4-config, that corresponds to the kernel used by us during the above experiment. On a Linux machine, follow the below steps to setup a Kernel with v6.9.4.
 
+(**Note: Backup/Snapshot your machine before installing a new Kernel, as this operation can often leave your machine in an inconsistent state.**)
+
 * First clone the respository using the following git command:
 > git clone https://github.com/sbu-fsl/Metis-Replayer.git
 
